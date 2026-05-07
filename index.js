@@ -53,7 +53,7 @@ const students = [
 //     console.log(`Server is running on port ${port}`);
 // });
 app.get('/', (req, res) => {
-    res.send('Welcome to my Express Server!');
+    // res.send('Welcome to my Express Server!');
 })
 
 app.get('/about', (req, res) => {
